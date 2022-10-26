@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main-container {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 0.5px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #385f71;
+}
+
+.nav-title {
+  font-weight: bolder;
+  
+}
+
+
+.gif{
+  width: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-right: 2.4rem;
+  /* background-color: #f1faee; */
+}
+
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  /* background-color: #f1faee; */
+}
+
+.search-bar {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  width: 250px;
+  border-radius: 15px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.search-input{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.search-input:hover {
+  transform: scale(1.15);
+}
+
+.word {
+  font-weight: bold;
+}
+
+.def {
+  padding: 1rem;
+}
+
+.def:nth-child(odd){
+  background-color: white;
+}
+.def:nth-child(even){
+  background-color: #f5f0f6;
+}
+
+.def > ul {
+  font-size: small;
+}
+
+.def-title {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.list {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
 }
